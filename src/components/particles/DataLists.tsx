@@ -1,18 +1,14 @@
 export const NavLinks = [
     {
-        name: "Destination",
+        name: "Servizi",
         url: "/"
     },
     {
-        name: "Hotels",
+        name: "Info",
         url: "/"
     },
     {
-        name: "Flights",
-        url: "/"
-    },
-    {
-        name: "Bookings",
+        name: "Newsletter",
         url: "/"
     }
 
@@ -32,33 +28,33 @@ export const NavButtons = [
 
 
 export const HeroTexts = {
-    firstText: "BEST DESITNATIONS AROUND THE WORLD",
-    secondText: "Travel, enjoy and live a new and full life.",
-    thirdText: "Built Wicket longer admire do barton vantity itself do in it. Preferred to sportsmen it engrossed listening. Park gate sell they west hard for the.",
-    firstButton: "Find out more",
+    firstText: "IL FUTURO DELLA GESTIONE DEL TUO ANIMALE",
+    secondText: "Trova e gestisci facilmente Veterinari",
+    thirdText: "Tutto quello di cui hai bisogno per il tuo amico a quattro zampe, a portata di click!",
+    firstButton: "Sono interessato",
     secondButton: 'Play Demo'
 }
 
 
 export const ServiceTexts = {
-    firstText: "CATEGORY",
-    secondText: "We Offer Best Services",
+    firstText: "I NOSTRI SERVIZI",
+    secondText: "SCOPRI ALCUNI DEI NOSTRI SERVIZI",
     cards: [
         {
-            firstText: "Calculated Weather",
-            secondText: "Built Wicket longer admire do barton vantity itself do in it."
+            firstText: "Ricerca di Veterinari",
+            secondText: "Trova i miglio professionisti disponibili intorno a te."
         },
         {
-            firstText: "Best Flight",
-            secondText: "engrossed listening. Park gate sell they west hard for the."
+            firstText: "Prenotazione",
+            secondText: "Prenota una visita direttamente dall'app."
         },
         {
-            firstText: "Local Events",
-            secondText: "barton vantity itself do in it.Preferred to men it engrossed listening."
+            firstText: "Calendario",
+            secondText: "Tieni traccia delle visite prenotate."
         },
         {
-            firstText: "Customizition",
-            secondText: "We deliver outsourced aviation services for military customers."
+            firstText: "Storico",
+            secondText: "Ricevi automaticamente tutti i documenti prodotti."
         }
     ]
 }
@@ -101,29 +97,29 @@ export const TopDestinationTexts = {
 }
 
 export const BookingStepsTexts = {
-    firstText: "Easy and Fast",
-    secondText: "Book your next trip in 3 easy steps",
+    firstText: "VERSIONE BETA",
+    secondText: "Partecipa al rilascio della versione beta",
     listOfSteps: [
         {
-            text: "Choose Destination lorem ipsum dolor sit amet, consectetur adipiscing elit.Urna, tortor tempus."
+            text: "Potrai iniziare ad utilizzare il servizio che avrà a dispozione le funzionalità descritte."
         },
         {
-            text: "Make Payment lorem ipsum dolor sit amet, consectetur adipiscing elit.Uma, totor tempus."
+            text: "Avrai accesso alla prima versione della sezione Social Network presente in app."
         },
         {
-            text: "Reach Airport on Selected Date lorem ipsum dolor sit amet.consectetur adipiscing elit.Uma totor tempus."
+            text: "Riceverai aggiornamenti e premi nel corso dell'evoluzione degli sviluppi."
         }
     ],
     cardOne:
     {
-        name: "Trip To Greece",
-        date: "14-29 June  |  by Robbin Jobs",
-        people: "24 people going"
+        name: "Rocky",
+        date: "14 ore fa  |  by LuigiDL",
+        people: "Milano"
     },
     cardTwo: {
-        status: "Ongoing",
-        destination: "Trip to Rome",
-        completion: "40% Completed"
+        status: "Work in progress",
+        destination: "Social network",
+        completion: "40% Completato"
     }
 
 }
@@ -156,9 +152,9 @@ export const TestimonialTexts = {
 }
 
 export const NewsletterTexts = {
-    firstText: "Subscribe to get information, latest news and other interesting offers about Jadoo.",
-    placeholderText: "Your email",
-    buttonText: "Subscribe"
+    firstText: "Iscriviti alla newsletter per partecipare alla beta e rimanere aggiornato.",
+    placeholderText: "La tua email",
+    buttonText: "Invia"
 }
 
 export const FooterTexts = {
@@ -167,7 +163,7 @@ export const FooterTexts = {
         caption: "Quick Links",
         links: [
             {
-                name: "Destination",
+                name: "Servizi",
                 url: "/"
             },
             {

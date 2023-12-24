@@ -52,7 +52,7 @@ const BookingSteps = () => {
                 {/* Card Container  */}
                 <div className='w-full flex flex-col justify-center lg:items-center items-start relative order-1 md:order-2'>
                     {/* First Card  */}
-                    <Card cardClass='lg:w-[70%] md:w-[80%] w-[90%] shadow-2xl shadow-sky-500/70 p-4 rounded-xl flex flex-col gap-4' imageAlt={BookingStepsTexts.cardOne.name} imageSrc={CardImage1} imageWrapperClass='h-[150px] overflow-hidden rounded-xl shadow' cover='object-cover object-top' textWrapperClass='flex flex-col gap-3'>
+                    <Card cardClass='lg:w-[70%] md:w-[80%] w-[90%] shadow-2xl shadow-sky-500/70 p-4 rounded-xl flex flex-col gap-4' imageAlt={BookingStepsTexts.cardOne.name} imageSrc={CardImage1} imageWrapperClass='h-[100%] overflow-hidden rounded-xl shadow' cover='object-cover object-top' textWrapperClass='flex flex-col gap-3'>
                         <Text as='h4' className='text-base font-medium text-color3'>
                             {BookingStepsTexts.cardOne.name}
                         </Text>

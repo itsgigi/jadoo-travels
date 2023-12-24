@@ -8,7 +8,7 @@ import { animateScroll } from "react-scroll";
 import NavBar from "./components/organs/NavBar"
 import Home from "./components/pages/Home";
 import { useEffect } from "react";
-import Footer from "./components/organs/Footer";
+// import Footer from "./components/organs/Footer";
 
 function App() {
   const directory = useLocation();
@@ -24,7 +24,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
       </Routes>
-      <Footer />
+      {/* <Footer /> */}
     </div>
   )
 }

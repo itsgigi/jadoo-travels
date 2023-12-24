@@ -1,8 +1,7 @@
 import { useState, useEffect } from "react"
 import { Image } from "../atoms/Image";
-import { Button } from "../atoms/Button"
 import Logo from "../../assets/logo1.png"
-import { NavButtons, NavLinks } from "../particles/DataLists"
+import { NavLinks } from "../particles/DataLists"
 import { List } from "../atoms/List";
 import { NavLink, useNavigate } from "react-router-dom";
 import { ArrowCircleRight, CirclesFour } from "@phosphor-icons/react";
@@ -49,7 +48,7 @@ const NavBar = () => {
                             }
 
                         </ul>
-                        <ul className="flex items-center justify-center gap-6">
+                        {/* <ul className="flex items-center justify-center gap-6">
                             {
                                 NavButtons.map((navbutton, index) => (
                                     <List className="w-full" key={index}>
@@ -64,14 +63,14 @@ const NavBar = () => {
                                     <option value="FRA">FRA</option>
                                 </select>
                             </List>
-                        </ul>
+                        </ul> */}
                     </div>
                     <div className="lg:hidden flex gap-4 items-center">
-                        <select className="border-none outline-none font-light text-sm bg-transparent">
+                        {/* <select className="border-none outline-none font-light text-sm bg-transparent">
                             <option value="EN" selected>EN</option>
                             <option value="ITA">ITA</option>
                             <option value="FRA">FRA</option>
-                        </select>
+                        </select> */}
                         <div className="hamburger text-gray-950 cursor-pointer" onClick={handleToggle}>
                             <CirclesFour size={30} color="currentColor" weight="fill" />
                         </div>
@@ -100,7 +99,7 @@ const NavBar = () => {
                             }
                         </ul>
                     </section>
-                    <ul className="w-full flex items-center justify-center pb-24 gap-4">
+                    {/* <ul className="w-full flex items-center justify-center pb-24 gap-4">
                         {
                             NavButtons.map((navbutton, index) => (
                                 <List className="w-auto" key={index}>
@@ -108,7 +107,7 @@ const NavBar = () => {
                                 </List>
                             ))
                         }
-                    </ul>
+                    </ul> */}
                 </div>
             </nav>
         </header >
