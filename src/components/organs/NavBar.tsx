@@ -3,7 +3,7 @@ import { Image } from "../atoms/Image";
 import Logo from "../../assets/logo1.png"
 import { NavLinks } from "../particles/DataLists"
 import { List } from "../atoms/List";
-import { NavLink, useNavigate } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 import { ArrowCircleRight, CirclesFour } from "@phosphor-icons/react";
 import { Slide } from "react-awesome-reveal";
 
