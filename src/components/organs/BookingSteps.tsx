@@ -2,7 +2,7 @@ import { useCallback } from 'react'
 import { List } from '../atoms/List'
 import { Text } from '../atoms/Text'
 import { BookingStepsTexts } from '../particles/DataLists'
-import { AirplaneInFlight, BookmarkSimple, Buildings, Heart, MapTrifold, Wallet } from '@phosphor-icons/react'
+import { Alarm, BookmarkSimple, Buildings, Heart, InstagramLogo, SquaresFour } from '@phosphor-icons/react'
 import { Card } from '../molecules/Card'
 import CardImage1 from "../../assets/bookingImage1.jpeg"
 import CardImage2 from "../../assets/bookingImage2.jpeg"
@@ -12,11 +12,11 @@ const BookingSteps = () => {
     const renderIcons = useCallback((element: number) => {
         switch (element) {
             case 0:
-                return <MapTrifold size={15} color="currentColor" weight="fill" />;
+                return <SquaresFour size={15} color="currentColor" weight="fill" />;
             case 1:
-                return <Wallet size={15} color="currentColor" weight="fill" />;
+                return <InstagramLogo size={15} color="currentColor" weight="fill" />;
             case 2:
-                return <AirplaneInFlight size={15} color="currentColor" weight="fill" />;
+                return <Alarm size={15} color="currentColor" weight="fill" />;
             default:
                 return "";
         }
@@ -37,7 +37,7 @@ const BookingSteps = () => {
                         {
                             BookingStepsTexts.listOfSteps.map((step, index) => (
                                 <List className='flex gap-5 items-center justify-start' key={index}>
-                                    <Text as='p' className={`text-white ${index === 0 ? "bg-color2" : index === 1 ? "bg-color1" : "bg-color3"} p-2 rounded-md`}>
+                                    <Text as='p' className={`text-white ${index === 0 ? "bg-color2" : index === 1 ? "bg-[#ff8c00]" : "bg-color3"} p-2 rounded-md`}>
                                         {renderIcons(index)}
                                     </Text>
                                     <Text as='p' className='text-sm text-color3 font-light'>
