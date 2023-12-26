@@ -1,15 +1,18 @@
 export const NavLinks = [
     {
         name: "Servizi",
-        url: "/"
+        heightMobile: 850,
+        heightDesk: 1000
     },
     {
         name: "Info",
-        url: "/"
+        heightMobile: 2180,
+        heightDesk: 1600
     },
     {
         name: "Newsletter",
-        url: "/"
+        heightMobile: 3200,
+        heightDesk: 2500
     }
 
 ];
