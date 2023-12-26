@@ -4,8 +4,7 @@ import { SubscribeForm } from "../molecules/SubscribeForm"
 import { NewsletterTexts } from "../particles/DataLists"
 import groupOfPlus from "../../assets/plusGroup2.png"
 
-
-const NewsLetter = () => {
+const NewsLetter = () => {    
     return (
         <section className="w-full my-64 flex justify-between relative items-start h-[400px]">
             <div className="bg-color3/10 w-[30%] h-[70%] self-end rounded-r-xl"></div>
