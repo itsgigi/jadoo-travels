@@ -40,7 +40,7 @@ const BookingSteps = () => {
                                     <Text as='p' className={`text-white ${index === 0 ? "bg-color2" : index === 1 ? "bg-[#ff8c00]" : "bg-color3"} p-2 rounded-md`}>
                                         {renderIcons(index)}
                                     </Text>
-                                    <Text as='p' className='text-sm text-color3 font-light'>
+                                    <Text as='p' className='text-md text-color3 font-light'>
                                         {step.text}
                                     </Text>
                                 </List>
@@ -50,8 +50,7 @@ const BookingSteps = () => {
                     </ul>
                 </div>
                 {/* Card Container  */}
-                <div className='w-full flex flex-col justify-center lg:items-center items-start relative order-1 md:order-2'>
-                    {/* First Card  */}
+                {/* <div className='w-full flex flex-col justify-center lg:items-center items-start relative order-1 md:order-2'>
                     <Card cardClass='lg:w-[70%] md:w-[80%] w-[90%] shadow-2xl shadow-sky-500/70 p-4 rounded-xl flex flex-col gap-4' imageAlt={BookingStepsTexts.cardOne.name} imageSrc={CardImage1} imageWrapperClass='h-[100%] overflow-hidden rounded-xl shadow' cover='object-cover object-top' textWrapperClass='flex flex-col gap-3'>
                         <Text as='h4' className='text-base font-medium text-color3'>
                             {BookingStepsTexts.cardOne.name}
@@ -73,7 +72,6 @@ const BookingSteps = () => {
                         </Text>
                     </Card>
 
-                    {/* Second Absolute Card  */}
                     <Card cardClass='flex gap-3 justify-start items-start absolute lg:right-0 -right-4 bottom-10 bg-white py-3 px-4 border-2 border-color3/5 shadow-md rounded-xl' imageAlt={BookingStepsTexts.cardTwo.destination} imageSrc={CardImage2} cover='object-cover object-top' imageWrapperClass='h-16 w-16 rounded-full overflow-hidden' textWrapperClass='flex flex-col gap-2'>
                         <Text as='p' className='text-xs font-light text-color3'>
                             {BookingStepsTexts.cardTwo.status}
@@ -85,7 +83,7 @@ const BookingSteps = () => {
                             {BookingStepsTexts.cardTwo.completion}
                         </Text>
                     </Card>
-                </div>
+                </div> */}
             </main>
         </section>
     )

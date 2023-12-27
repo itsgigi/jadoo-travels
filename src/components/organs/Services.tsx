@@ -1,7 +1,5 @@
-import { Image } from "../atoms/Image"
 import { Text } from "../atoms/Text"
 import { ServiceTexts } from "../particles/DataLists"
-import GroupOfPlus from "../../assets/plusGroup.png"
 import { Card } from "../molecules/Card"
 import { useCallback } from "react"
 import Icon1 from "../../assets/icon1.png"
@@ -31,8 +29,8 @@ const Services = () => {
     }, []);
     return (
         <section className="w-full h-auto flex flex-col items-center justify-center relative lg:px-24 md:px-20 px-6">
-            <Image image={GroupOfPlus} alt="Vector" className="absolute top-0 right-4 lg:h-36 h-24" />
-            <main className="w-full pt-32 flex flex-col gap-3 items-center justify-center">
+            {/* <Image image={null} alt="Vector" className="absolute top-0 right-4 lg:h-36 h-24" /> */}
+            <main className="w-full flex flex-col pt-32 lg:pt-0 gap-3 items-center justify-center">
                 <Text as="p" className="font-light text-base text-color3/80 tracking-widest">
                     <Fade>{ServiceTexts.firstText}</Fade>
                 </Text>

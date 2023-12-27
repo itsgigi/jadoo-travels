@@ -10,7 +10,7 @@ export const NavLinks = [
         heightDesk: 1600
     },
     {
-        name: "Newsletter",
+        name: "Iscriviti",
         heightMobile: 3200,
         heightDesk: 2500
     }
@@ -31,8 +31,8 @@ export const NavButtons = [
 
 
 export const HeroTexts = {
-    firstText: "IL FUTURO DELLA GESTIONE DEL TUO ANIMALE",
-    secondText: "Trova e gestisci facilmente Veterinari",
+    firstText: "DA AMANTI DEI CANI, PER AMANTI DEI CANI",
+    secondText: "Il modo più semplice per prenderti cura della salute del tuo cane",
     thirdText: "Tutto quello di cui hai bisogno per il tuo amico a quattro zampe, a portata di click!",
     firstButton: "Sono interessato",
     secondButton: 'Play Demo'
@@ -45,7 +45,7 @@ export const ServiceTexts = {
     cards: [
         {
             firstText: "Ricerca di Veterinari",
-            secondText: "Trova i miglio professionisti disponibili intorno a te."
+            secondText: "Trova i migliori professionisti disponibili intorno a te."
         },
         {
             firstText: "Prenotazione",
@@ -101,14 +101,14 @@ export const TopDestinationTexts = {
 
 export const BookingStepsTexts = {
     firstText: "VERSIONE BETA",
-    secondText: "Partecipa al rilascio della versione beta",
+    secondText: "Ottieni in esclusiva l'accesso alla versione beta",
     listOfSteps: [
         {
-            text: "Potrai iniziare ad utilizzare il servizio che avrà a dispozione le funzionalità descritte."
+            text: "Potrai iniziare ad utilizzare il servizio con le funzionalità descritte."
         },
-        {
-            text: "Avrai accesso alla prima versione della sezione Social Network presente in app."
-        },
+        // {
+        //     text: "Avrai accesso alla prima versione della sezione Social Network presente in app."
+        // },
         {
             text: "Riceverai aggiornamenti e premi nel corso dell'evoluzione degli sviluppi."
         }
@@ -155,7 +155,7 @@ export const TestimonialTexts = {
 }
 
 export const NewsletterTexts = {
-    firstText: "Iscriviti alla newsletter per partecipare alla beta e rimanere aggiornato.",
+    firstText: "Iscriviti gratuitamente alla lista di attesa per ottenere l'accesso alla beta e rimanere aggiornato.",
     placeholderText: "La tua email",
     buttonText: "Invia"
 }
