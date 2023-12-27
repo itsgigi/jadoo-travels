@@ -2,11 +2,7 @@ import { useCallback } from 'react'
 import { List } from '../atoms/List'
 import { Text } from '../atoms/Text'
 import { BookingStepsTexts } from '../particles/DataLists'
-import { Alarm, BookmarkSimple, Buildings, Heart, InstagramLogo, SquaresFour } from '@phosphor-icons/react'
-import { Card } from '../molecules/Card'
-import CardImage1 from "../../assets/bookingImage1.jpeg"
-import CardImage2 from "../../assets/bookingImage2.jpeg"
-
+import { Alarm, InstagramLogo, SquaresFour } from '@phosphor-icons/react'
 const BookingSteps = () => {
 
     const renderIcons = useCallback((element: number) => {
