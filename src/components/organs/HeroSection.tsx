@@ -11,7 +11,7 @@ import ReactGA from "react-ga";
 const HeroSection = () => {
     
     const scrollEvent = () => {
-        ReactGA.event({'category': 'Scroll', 'action': 'scroll', 'label': 'Interesse'})
+        ReactGA.event({'category': 'Interesse', 'action': 'interesse', 'label': 'Interesse'})
         window.scroll(0,3200)
     }
 
