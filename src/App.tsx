@@ -8,7 +8,7 @@ import { animateScroll } from "react-scroll";
 import NavBar from "./components/organs/NavBar"
 import Home from "./components/pages/Home";
 import { useEffect } from "react";
-import ReactGA from "react-ga";
+import ReactGA from "react-ga4";
 // import Footer from "./components/organs/Footer";
 
 const TRACKING_ID = 'G-VPCCL6W4YR';
