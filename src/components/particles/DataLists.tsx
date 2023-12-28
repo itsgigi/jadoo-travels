@@ -33,7 +33,7 @@ export const NavButtons = [
 export const HeroTexts = {
     firstText: "DA AMANTI DEI CANI, PER AMANTI DEI CANI",
     secondText: "Il modo più semplice per prenderti cura della salute del tuo cane",
-    thirdText: "Tutto quello di cui hai bisogno per il tuo amico a quattro zampe, a portata di click!",
+    thirdText: "La salute del tuo cane a portata di click!",
     firstButton: "Sono interessato",
     secondButton: 'Play Demo'
 }

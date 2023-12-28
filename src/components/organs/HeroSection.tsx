@@ -5,9 +5,16 @@ import { Text } from "../atoms/Text"
 import { HeroTexts } from "../particles/DataLists"
 import { Button } from "../atoms/Button"
 import { Fade, Slide } from "react-awesome-reveal"
+import ReactGA from "react-ga";
 
 
 const HeroSection = () => {
+    
+    const scrollEvent = () => {
+        ReactGA.event({'category': 'Scroll', 'action': 'scroll', 'label': 'Interesse'})
+        window.scroll(0,3200)
+    }
+
     return (
         <section className="w-full lg:h-screen md:h-[550px] h-[830px] relative overflow-x-hidden flex justify-end">
             <Image className="h-[60%] w-[80%] lg:h-[90vh] md:h-[50vh] lg:w-1/2 md:w-[55%] opacity-60" image={bgImage} alt="Hero Background Vector" />
@@ -23,7 +30,7 @@ const HeroSection = () => {
                         <Fade>{HeroTexts.thirdText}</Fade>
                     </Text>
                     <div className="w-full flex md:justify-start justify-between items-center lg:gap-12 md:gap-6 gap-0">
-                        <Button type="button" className="outline-none border-none lg:px-7 px-5 py-3 bg-color2 text-white font-extralight rounded-lg" onClick={() => window.scroll(0,3200)}>
+                        <Button type="button" className="outline-none border-none lg:px-7 px-5 py-3 bg-color2 text-white font-extralight rounded-lg" onClick={scrollEvent}>
                             {HeroTexts.firstButton}
                         </Button>
                         {/* <div className="flex items-center lg:gap-6 gap-3 cursor-pointer">
