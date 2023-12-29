@@ -5,13 +5,18 @@ import { Text } from "../atoms/Text"
 import { HeroTexts } from "../particles/DataLists"
 import { Button } from "../atoms/Button"
 import { Fade, Slide } from "react-awesome-reveal"
-import ReactGA from "react-ga";
+import InitializeGoogleAnalytics, {TrackGoogleAnalyticsEvent} from "../../utils/index";
+import { useEffect } from "react"
 
 
 const HeroSection = () => {
+
+    useEffect(() => {
+        InitializeGoogleAnalytics();
+    },[]);
     
     const scrollEvent = () => {
-        ReactGA.event({category: 'Interesse', action: 'Interesse', label: 'Interesse'})
+        TrackGoogleAnalyticsEvent('Interesse-cat','Interesse-action', 'Interesse-label')
         window.scroll(0,3200)
     }
 
