@@ -11,7 +11,7 @@ import { useEffect } from "react";
 import ReactGA from "react-ga";
 // import Footer from "./components/organs/Footer";
 
-const TRACKING_ID = 'G-VPCCL6W4YR';
+const TRACKING_ID = 'G-YECCEHHJB7';
 ReactGA.initialize(TRACKING_ID);
 
 // <!-- Google tag (gtag.js) -->
