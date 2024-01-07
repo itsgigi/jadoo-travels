@@ -5,13 +5,13 @@ import { Text } from "../atoms/Text"
 import { HeroTexts } from "../particles/DataLists"
 import { Button } from "../atoms/Button"
 import { Fade, Slide } from "react-awesome-reveal"
-import { track } from "@vercel/analytics"
+import va from "@vercel/analytics"
 
 const HeroSection = () => {
 
     const scrollEvent = () => {
         window.scroll(0,3200);
-        track('Interest');
+        va.track('Interest');
     }
 
     return (
