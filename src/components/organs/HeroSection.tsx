@@ -29,7 +29,7 @@ const HeroSection = () => {
                         <Fade>{HeroTexts.thirdText}</Fade>
                     </Text>
                     <div className="w-full flex md:justify-start justify-between items-center lg:gap-12 md:gap-6 gap-0">
-                        <Button type="button" className="outline-none border-none lg:px-7 px-5 py-3 bg-color2 text-white font-extralight rounded-lg" onClick={() => track('Interest')}>
+                        <Button type="button" className="outline-none border-none lg:px-7 px-5 py-3 bg-color2 text-white font-extralight rounded-lg" onClick={() => track('Signup')}>
                             {HeroTexts.firstButton}
                         </Button>
                         {/* <div className="flex items-center lg:gap-6 gap-3 cursor-pointer">
