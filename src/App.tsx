@@ -4,6 +4,7 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
 import { animateScroll } from "react-scroll";
+import { Analytics } from '@vercel/analytics/react';
 
 import NavBar from "./components/organs/NavBar"
 import Home from "./components/pages/Home";
@@ -38,6 +39,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
       </Routes>
+      <Analytics />
       {/* <Footer /> */}
     </div>
   )
