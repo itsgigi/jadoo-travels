@@ -9,10 +9,10 @@ import { track } from "@vercel/analytics"
 
 const HeroSection = () => {
 
-    const scrollEvent = () => {
-        window.scroll(0,3200);
-        () => track('Interest');
-    }
+    // const scrollEvent = () => {
+    //     window.scroll(0,3200);
+    //     () => track('Interest');
+    // }
 
     return (
         <section className="w-full lg:h-screen md:h-[550px] h-[830px] relative overflow-x-hidden flex justify-end">
