@@ -11,7 +11,7 @@ const HeroSection = () => {
 
     const scrollEvent = () => {
         window.scroll(0,3200);
-        track('Interest');
+        () => track('Interest');
     }
 
     return (
